@@ -1,0 +1,45 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+@namespace components "org.lala.components.*";
+
+.boldBtStyle
+{
+    font-weight:bold;
+}
+.italicBtStyle
+{
+    font-style:italic;
+}
+.underlineBtStyle
+{
+    text-decoration:underline;
+}
+global
+{
+    font-family: '微软雅黑','simsun','_sans';
+	symbol-color: #f51a1a;
+	content-background-color: #EEEEEE;
+	content-background-alpha: 0.06;
+	chrome-color: #F1EEEE;
+	focus-color: #E5E2E2;
+}
+mx|ToolTip
+{
+    backgroundColor: black;
+    backgroundAlpha: 0.7;
+    cornerRadius: 0;
+    color: white;
+    font-size:12px;
+}
+.boldStyle
+{
+    fontWeight:bold;
+}
+components|IconButton
+{
+	icon: "@Embed(source='assets/commentShowIcon.png')";
+	backgroundColor: black;
+	backgroundAlpha: 0.7;
+	font-size:12px;
+}
